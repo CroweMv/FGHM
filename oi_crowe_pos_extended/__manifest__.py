@@ -9,7 +9,7 @@
     'category': 'POS',
     'summary': 'Smart Icon in POS Session is hidden',
     'description': """Smart Icon in POS Session is hidden""",
-    'depends': ['base', 'stock', 'point_of_sale'],
+    'depends': ['base', 'stock', 'point_of_sale','sale'],
     'data': [
     'views/pos_session_view.xml'
     ],
