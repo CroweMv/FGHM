@@ -10,8 +10,8 @@ For Module Support : devintelle@gmail.com  or Skype : devintelle
             string="Print Cheque"
             model="account.payment" 
             report_type="qweb-pdf"
-            name="dev_print_cheque.report_print_cheque"
-            file="dev_print_cheque.report_print_cheque"
+            name="oi_crowe_print_cheque.report_print_cheque"
+            file="oi_crowe_print_cheque.report_print_cheque"
         />
         
         
@@ -31,8 +31,8 @@ For Module Support : devintelle@gmail.com  or Skype : devintelle
             <field name="dpi">90</field>
         </record>
         
-        <record id="dev_print_cheque.action_report_print_cheque" model="ir.actions.report">
-			<field name="paperformat_id" ref="dev_print_cheque.paperformat_cheque" />
+        <record id="oi_crowe_print_cheque.action_report_print_cheque" model="ir.actions.report">
+			<field name="paperformat_id" ref="oi_crowe_print_cheque.paperformat_cheque" />
 		</record>   
 		
 		

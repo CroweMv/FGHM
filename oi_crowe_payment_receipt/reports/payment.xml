@@ -3,18 +3,10 @@
 
    
 
-    <report
-        id                  ="action_purchase_slip"
-        string              ="Payment/Receipt"
-        model               ="account.payment"
-        report_type         ="qweb-pdf"
-        name                ="oi_crowe_payment_receipt.report_payment_new"
-        file                ="oi_crowe_payment_receipt.report_payment_new"
-        paperformat         ="oi_crowe_payment_receipt.paperformat_apayslip"
-    />
+    
 
     <record id="paperformat_apayslip" model="report.paperformat">
-        <field name="name">European A4 low margin</field>
+        <field name="name">European A4 low margin - Payment Receipt</field>
         <field name="default" eval="True" />
         <field name="format">A4</field>
         <field name="page_height">0</field>
@@ -28,5 +20,15 @@
         <field name="header_spacing">17</field>
         <field name="dpi">90</field>
     </record>
+
+    <report
+        id ="action_purchase_slip"
+        string="Payment/Receipt"
+        model="account.payment"
+        report_type="qweb-pdf"
+        name="oi_crowe_payment_receipt.report_payment_new"
+        file="oi_crowe_payment_receipt.report_payment_new"
+        paperformat="oi_crowe_payment_receipt.paperformat_apayslip"
+    />
 
 </odoo>
