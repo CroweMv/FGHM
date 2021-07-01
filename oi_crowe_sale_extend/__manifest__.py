@@ -1,4 +1,5 @@
-
+# -*- coding: utf-8 -*-
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Sale Order Extend',
     'version': '14.0.1.0',
@@ -8,7 +9,7 @@
     'author': 'Oodu Implementers Pvt. Ltd.',
     'website': "https://www.odooimplementers.com",
     'depends': ['base', 'sale'],
-    'data': ['data/view.xml'],
+    'data': ['views/sale_view.xml'],
     'demo': [ ],
     'test': [ ],
     'installable': True,
