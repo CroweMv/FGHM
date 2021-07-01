@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
+    <!-- <data> -->
        
 
         <record id="view_sales_order_tree_quotation" model="ir.ui.view">
@@ -27,5 +27,5 @@
         </record>
 
        
-    </data>
+    <!-- </data> -->
 </odoo>
