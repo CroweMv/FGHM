@@ -8,7 +8,7 @@
     'author': 'Oodu Implementers Pvt. Ltd.',
     'website': "https://www.odooimplementers.com",
     'depends': ['base', 'sale'],
-    'data': ['views/view.xml'],
+    'data': ['data/view.xml'],
     'demo': [ ],
     'test': [ ],
     'installable': True,
